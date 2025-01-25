@@ -1,0 +1,50 @@
+[
+    {
+        "image":"asset/images/card1.png",
+        "title":"Star Caffee",
+        "type":"Gift Card",
+        "total":1
+    },
+    {
+        "image":"asset/images/card2.png",
+        "title":"Natuzzi",
+        "type":"Coupon Card",
+        "total":0
+    },
+    {
+        "image":"asset/images/card3.png",
+        "title":"Train Ticket",
+        "type":"Boarding Card",
+        "total":2
+    },
+    {
+        "image":"asset/images/card4.png",
+        "title":"Chipotle",
+        "type":"Loyality Card",
+        "total":0
+    },
+    {
+        "image":"asset/images/card5.png",
+        "title":"Star Caffee",
+        "type":"Loyality Card",
+        "total":0
+    },
+    {
+        "image":"asset/images/card6.png",
+        "title":"Molteni & C",
+        "type":"Rewards",
+        "total":0
+    },
+    {
+        "image":"asset/images/card1.png",
+        "title":"Chipotle",
+        "type":"Gae",
+        "total":0
+    },
+    {
+        "image":"asset/images/card2.png",
+        "title":"Cattelan",
+        "type":"Loyality Card",
+        "total":0
+    }
+]

@@ -1,0 +1,55 @@
+name: amar_wallet
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.17
+  carousel_slider: ^5.0.0
+  flutter_bloc: ^9.0.0
+  mobile_scanner: ^6.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - asset/images/
+    - asset/icons/
+    - asset/json/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: asset/fonts/poppins/Poppins-Regular.ttf
+        - asset: asset/fonts/poppins/Poppins-Medium.ttf
+        - asset: asset/fonts/poppins/Poppins-SemiBold.ttf
+        - asset: asset/fonts/poppins/Poppins-Bold.ttf
+        - asset: asset/fonts/poppins/Poppins-Italic.ttf
+          style: italic
+    - family: Sansation
+      fonts:
+        - asset: asset/fonts/sansation/Sansation_Regular.ttf
+        - asset: asset/fonts/sansation/Sansation_Light.ttf
+        - asset: asset/fonts/sansation/Sansation_Bold.ttf
+
+
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
