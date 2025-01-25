@@ -1,13 +1,14 @@
-# Flutter Project Repository
+# Amar Wallet
 
-This repository contains the source code and setup instructions for the [Flutter Project Name].
+This repository contains the source code and setup instructions for the Amar Wallet.
 
 ## Features
 
-- **Cross-platform:** Runs on Android, iOS, and Web.
+- **Cross-platform:** Runs on Android, iOS.
 - **Modern UI:** Clean and intuitive design.
 - **Optimized performance:** Built with Flutter's efficient rendering engine.
-- **State Management:** Powered by [state management library, e.g., GetX/Bloc/Provider].
+- **State Management:** Bloc
+- **Navigation :** Default Router
 
 ---
 
@@ -16,15 +17,21 @@ This repository contains the source code and setup instructions for the [Flutter
 ```
 lib/
 ├── main.dart                # Entry point of the application
-├── screens/                 # Contains all screen widgets
-├── widgets/                 # Reusable components
-├── models/                  # Data models
-├── controllers/             # State management controllers (e.g., GetX, Bloc)
-├── services/                # API and backend integration
-├── utils/                   # Utility functions and constants
+├── module/                 # All Pages and their controllers
+├── routes/                 # All nativation routes here
+├── core/                   # colors, icons, images, constants
+├── data/                   # For Local Data
 ```
 
 ---
+
+## Check Assets
+
+1. **Font Family:** Poppins, Sansation
+2. **Icons:** 
+3. **Images:** 
+4. **Dummy Json:** 
+
 
 ## Prerequisites
 
@@ -42,17 +49,22 @@ lib/
    cd flutter-project
    ```
 
-2. **Install Dependencies:**
+2. **Clean Project:**
+   ```bash
+   flutter clean
+   ```
+
+3. **Install Dependencies:**
    ```bash
    flutter pub get
    ```
 
-3. **Run the Application:**
+4. **Run the Application:**
    ```bash
    flutter run
    ```
 
-4. **Build the APK/IPA:**
+5. **Build the APK/IPA:**
    - Android:
      ```bash
      flutter build apk
@@ -63,35 +75,3 @@ lib/
      ```
 
 ---
-
-## Environment Setup
-
-Create a `.env` file in the root directory to store environment variables (if applicable). Use the format below:
-
-```
-API_BASE_URL=https://example.com/api
-API_KEY=your_api_key_here
-```
-
----
-
-## Screenshots
-
-Include relevant screenshots of the app running on devices.
-
----
-
-## Contributions
-
-We welcome contributions! Please follow the steps below:
-
-1. Fork this repository.
-2. Create a new branch for your feature/bugfix.
-3. Commit your changes and push them.
-4. Submit a pull request for review.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
